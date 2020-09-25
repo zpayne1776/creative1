@@ -6,8 +6,9 @@
 
 .header-container {
   color: #5995DA;
-  background-image: linear-gradient(rgb(215,0,0), rgb(230, 150, 150));
+  background-image: url("/images/header.png");
   background-size:cover;
+  background-position: 70% 70%;
   display: flex;
   justify-content: center;
 
@@ -25,50 +26,74 @@
   margin: 5%;
   font-weight: bold;
   color: #000000;
-  font-size: 40px;
+  font-size: 70px;
   opacity: 1;
   text-align: center;
 }
 
+
 .page {
-  background-image: radial-gradient(circle,white,rgb(230,140,140));
+  background-color: white;
   display: flex;
   width: 100%;
-  height: auto;
+  height: 100%;
   align-content: center;
   justify-content: center;
 }
 
-.content-container {
+.content-background {
   background-color: rgb(245,245,245);
   display: flex;
-  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   width: 70%;
-  height: auto;
-  flex-direction: row;
+  height: 100%;
 }
 
+.content-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.latest-news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.survivor-count {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: auto;
   background-size: cover;
-  height: 150px;
-  background-image: linear-gradient(rgb(230, 150, 150), rgb(200,70,70));
+  background-image: url("/images/footer.png");
+  height: 400px;
 }
 
 .footer-item {
-  height: 130px;
+  margin-bottom: 35px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   text-decoration: none;
   display: flex;
   flex-direction: column;
 }
 
 .footer-item p {
+  color: #f00;
   font-size: small;
   padding: 0px;
   margin: 0px;
