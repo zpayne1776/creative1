@@ -52,7 +52,7 @@
 }
 
 .content-container {
-  padding: 40px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -117,6 +117,10 @@
 
   .page-name {
     font-size: 70px;
+  }
+
+  .content-container {
+    padding: 40px;
   }
 
 }
