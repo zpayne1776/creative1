@@ -18,6 +18,10 @@ h2{
   text-align: center;
 }
 
+.grid-item img{
+  width: 100%;
+}
+
 .footer {
   display: flex;
   justify-content: center;
