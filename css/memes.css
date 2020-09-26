@@ -1,4 +1,10 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header-container {
   color: #5995DA;
   background-image: url("/images/header.png");
@@ -48,7 +54,7 @@ h2{
   align-content: center;
   background-size: cover;
   background-image: url("/images/footer.png");
-  height: 400px;
+  height: 200px;
 }
 
 .footer-item {
@@ -66,3 +72,9 @@ h2{
   padding: 0px;
   margin: 0px;
 }
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .footer {
+    height: 400px;
+  }
