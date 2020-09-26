@@ -10,12 +10,16 @@ h2{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   padding: 10px;
 }
 .grid-item {
   padding: 20px;
   text-align: center;
+}
+
+.grid-item img{
+  width: 100%;
 }
 
 .footer {
