@@ -35,6 +35,11 @@
 h2{
   text-align: center;
 }
+
+.content{
+  margin:20px;
+}
+  
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +60,7 @@ h2{
 
 .photo {
   border: solid;
+  margin: 5px;
 }
 .text{
   text-align: center;
