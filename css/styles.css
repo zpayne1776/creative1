@@ -65,6 +65,14 @@
   text-align: center;
 }
 
+li img {
+  width: 60px;
+}
+
+li a {
+  margin-left: 10px;
+}
+
 .latest-news {
   display: flex;
   flex-direction: column;
@@ -76,6 +84,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.latest-news ul {
+  list-style-type: none;
+  list-style: none;
 }
 
 .footer {
