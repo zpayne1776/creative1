@@ -26,7 +26,7 @@
   margin: 5%;
   font-weight: bold;
   color: #000000;
-  font-size: 70px;
+  font-size: 50px;
   opacity: 1;
   text-align: center;
 }
@@ -61,17 +61,20 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  text-align: center;
 }
 
 .latest-news {
   display: flex;
   flex-direction: column;
   width: 100%;
+  text-align: center;
 }
 
 .survivor-count {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .footer {
@@ -80,7 +83,7 @@
   align-content: center;
   background-size: cover;
   background-image: url("/images/footer.png");
-  height: 400px;
+  height: 200px;
 }
 
 .footer-item {
@@ -97,4 +100,22 @@
   font-size: small;
   padding: 0px;
   margin: 0px;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .footer {
+    height: 400px;
+  }
+
+  .welcome,
+  .latest-news,
+  .survivor-count {
+    text-align: left;
+  }
+
+  .page-name {
+    font-size: 70px;
+  }
+
 }
