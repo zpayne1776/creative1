@@ -1,0 +1,44 @@
+/*Store.css*/
+
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  background-image: url("/images/footer.png");
+  height: 400px;
+}
+
+.footer-item {
+  margin-bottom: 35px;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item p {
+  color: #f00;
+  font-size: small;
+  padding: 0px;
+  margin: 0px;
+}
